@@ -98,7 +98,7 @@ if ($result && mysqli_num_rows($result) > 0) {
                         <a href="#" class="download" onclick="logout()">Logout</a>
                     </li>
                     <li>
-                        <a href="inde.php" class="article">Back to Website</a>
+                        <a href="index.php" class="article">Back to Website</a>
                     </li>
                 </ul>
             </nav>

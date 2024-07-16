@@ -88,7 +88,7 @@ if ($result && mysqli_num_rows($result) > 0) {
                     <a href="#" class="download" onclick="logout()">Logout</a>
                 </li>
                 <li>
-                    <a href="../../inde.php" class="article">Back to Website</a>
+                    <a href="../../index.php" class="article">Back to Website</a>
                 </li>
             </ul>
         </nav>
@@ -115,7 +115,6 @@ if ($result && mysqli_num_rows($result) > 0) {
                             <tr>
                                 <th>Date</th>
                                 <th>Amount</th>
-                                <th>Fee Month</th>
                                 <th>Payment Status</th>
                             </tr>
                         </thead>
@@ -126,7 +125,6 @@ if ($result && mysqli_num_rows($result) > 0) {
                                 payment_id, 
                                 amount, 
                                 payment_date,
-                                fee_month,
                                 payment_status
                             FROM 
                                 payment 
@@ -153,7 +151,6 @@ if ($result && mysqli_num_rows($result) > 0) {
                                     echo "<tr>";
                                     echo "<td>" . $record['payment_date'] . "</td>";
                                     echo "<td>" . $record['amount'] . "</td>";
-                                    echo "<td>" . $record['fee_month'] . "</td>";
                                     echo "<td class='$statusClass'>" . $record['payment_status'] . "</td>";
                                     echo "</tr>";
                                 }

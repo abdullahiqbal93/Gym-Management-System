@@ -39,7 +39,7 @@ try {
 
     if ($paymentSuccessful) {
         // Insert payment into the database
-        $paymentQuery = "INSERT INTO payment (member_id, package_id, amount, payment_date, fee_month, payment_status) VALUES (?, ?, ?, CURDATE(), NULL, 'pending')";
+        $paymentQuery = "INSERT INTO payment (member_id, package_id, amount, payment_date, payment_status) VALUES (?, ?, ?, CURDATE(), 'pending')";
         $stmt = $con->prepare($paymentQuery);
         $stmt->bind_param("iii", $memberID, $packageID, $package_amount); // Add $package_amount to bind
         $stmt->execute();
