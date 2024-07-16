@@ -12,15 +12,14 @@
 - [Contact](#contact)
 
 ## Introduction
-The Gym Management System is a comprehensive web application developed in PHP to facilitate the management of gym operations. It provides tools for managing members, memberships, classes, staff, and attendance, making it easy for gym administrators to handle daily tasks and for members to manage their profiles and schedules.
+The Gym Management System is a comprehensive web application developed in PHP to facilitate the management of gym operations. It provides tools for managing members, memberships, classes, trainers, and equipments, making it easy for gym administrators to handle daily tasks and for members to manage their profiles and schedules.
 
 ## Features
 - **User Authentication**: Secure login and registration for members and staff.
 - **Member Management**: Add, edit, and delete member information.
 - **Membership Plans**: Create and manage different membership plans.
-- **Class Scheduling**: Schedule and manage fitness classes.
-- **Staff Management**: Manage staff profiles and roles.
-- **Attendance Tracking**: Track member attendance.
+- **Trainer Management**: Manage trainer Details.
+- **Equipment Management**: Add, edit , delete equipments.
 - **Payment Processing**: Manage membership payments and dues.
 - **Notifications**: Send notifications to members about upcoming classes or membership renewals.
 
@@ -47,19 +46,17 @@ The admin panel provides gym administrators with tools to manage the gym’s ope
 - Admin username (admin@gmail.com) Password (123)
 - Manage Members: Add, edit, and delete member information.
 - Manage Membership Plans: Create and update various membership plans.
-- Schedule Classes: Schedule fitness classes and manage class details.
-- Manage Staff: Add, edit, and assign roles to gym staff.
-- Track Attendance: Monitor member attendance and generate reports.
+- Manage Trainers: Add, edit, and delete to gym trainers.
 - Process Payments: Handle membership payments and track dues.
 - Send Notifications: Notify members about upcoming classes, payment reminders, or special events.
 
 ### Member Area
 Members have access to their own area where they can:
 - View Profile: Update personal information and view membership details.
-- View Class Schedule: Check the schedule for upcoming fitness classes and enroll in classes.
-- Track Attendance: View their own attendance history.
-- Manage Payments: View payment history and pay dues online.
+- View Class Schedule: Check the schedule 
+- Manage Payments: View payment history
 - Receive Notifications: Stay informed about upcoming classes, renewals, and special events.
+- View BMI: Check BMI and compare with the previous history
 
 ## Contact
 For any questions or support, please contact:
