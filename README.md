@@ -43,7 +43,7 @@ The Gym Management System is a comprehensive web application developed in PHP to
 
 ### Admin Panel
 The admin panel provides gym administrators with tools to manage the gym’s operations effectively. Administrators can:
-- Admin username (admin@gmail.com) Password (123)
+- Admin username (admin) Password (123)
 - Manage Members: Add, edit, and delete member information.
 - Manage Membership Plans: Create and update various membership plans.
 - Manage Trainers: Add, edit, and delete to gym trainers.
